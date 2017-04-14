@@ -1,4 +1,4 @@
-local http = require "http"
+local http = require "resty.http"
 local json = require "cjson"
 
 local ngx_timer_at = ngx.timer.at
